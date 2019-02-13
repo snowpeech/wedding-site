@@ -1,8 +1,14 @@
-nav {
+html, body {
+	padding: 0px;
+	margin: 0px;
+}
+.navbar {
 	display: inline;
 	text-transform: uppercase;
 	height: 10vh;
 	background-color: white;
+	/*position: fixed;
+	top:0px;*/
 }
 
 a {
@@ -36,4 +42,15 @@ li a:hover {
 .center {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.mark-logo{
+	height:80px;
+}
+
+#bloompic {
+	background-image: url("bloom.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
 }
