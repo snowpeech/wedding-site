@@ -98,6 +98,7 @@ p {
 	font-family: 'Questrial', sans-serif;
 	/*width: 123px;*/
 	color: var(--midnight);
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.08);
 }
 
 .button:hover {
@@ -113,7 +114,7 @@ p {
 	color: var(--midnight);
 	border-radius: 10px 10px 0px 10px;
 	transition: all 0.35s;
-
+	/*box-shadow: 0 2px 4px 0 rgba(0,0,0,0.08);*/
 }
 
 #chat:hover {
