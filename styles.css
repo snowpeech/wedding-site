@@ -65,15 +65,20 @@ p {
 }
 
 #bloompic {
-	background-image: url("bloom.jpg");
+	background-image: url("https://dr6b2l874r4si.cloudfront.net/inbloom-d-home-atf-2x-01_n.jpg");
 	background-size: cover;
-	height: 100vh;
+	height: 110vh;
+	background-position:center;
 }
 
 #intro {
-	text-align: left;
 	font-size: x-large;
-	margin-left: 135px;
+	width:35vw;
+	padding:220px 100px;
+}
+
+#intro a{
+	max-width:25%;
 }
 
 .container25 {
@@ -91,10 +96,27 @@ p {
 	border-radius: 3px;
 	font-size: 11pt;
 	font-family: 'Questrial', sans-serif;
-	width: 123px;
+	/*width: 123px;*/
+	color: var(--midnight);
 }
 
 .button:hover {
 	background-color: var(--midnight);
 	color: white;
+}
+
+#chat {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: white;
+	color: var(--midnight);
+	border-radius: 10px 10px 0px 10px;
+	transition: all 0.35s;
+
+}
+
+#chat:hover {
+	transform: rotate(12deg);
+	padding: 25px 35px;
 }
