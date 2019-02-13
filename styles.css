@@ -1,3 +1,7 @@
+:root {
+
+}
+
 html, body {
 	padding: 0px;
 	margin: 0px;
@@ -31,6 +35,14 @@ li a:hover {
 	font-weight: bold;
 }
 
+h1 {
+	font-family: 'Playfair Display', serif;
+}
+
+p {
+	font-family: 'Poppins', sans-serif;
+}
+
 .left {
 	float: left;
 }
@@ -53,4 +65,19 @@ li a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
+}
+
+#intro {
+	text-align: left;
+	font-size: x-large;
+	margin-left: 135px;
+}
+
+.container25 {
+	width: 25%;
+	clear: both;
+}
+.container35 {
+	width: 35%;
+	clear: both;
 }
